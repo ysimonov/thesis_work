@@ -9,7 +9,7 @@ under the assumption that source and load impedances are perfectly matched with 
 of the transmission line.
 The channel sounding was based on frequency sweep of 1-9GHz UWB channel formed by multipath medium, and two
 BBHA 9120 D Double Ridge Broadband Horn antennas. FieldFox N9915A 9GHz Microwave Analyzer was used for S-parameter test.
-Transfer function is fitted by a rational fit and is used to estimated impulse response, assuming the system is LTI. 
+Transfer function is fitted by a rational fit and is used to estimate the impulse response, assuming the system is LTI. 
 The order of rational polynomial was chosen > 200 Degree to achieve sufficient accuracy. 
 
 I also wrote a separate subroutine that performs sampled continuous inverse Fourier transform and Fourier transform of 
